@@ -8,16 +8,9 @@ from rest_framework.versioning import URLPathVersioning
 from django.http import HttpResponse
 
 
-class ExchangeRatesVersioning(URLPathVersioning):
-    default_version = 1
-    allowed_versions = 1
-    version_param = 'version'
-
-
 class ResourceAPIRest(generics.GenericAPIView):
     public_documentation = False
     name = 'Servicio Web'
-    # versioning_class = ExchangeRatesVersioning
 
     def has_attr(self, property):
         if hasattr(self, property):
