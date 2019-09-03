@@ -1,0 +1,26 @@
+[
+{
+  "model": "exchange_trades.currency",
+  "pk": 1,
+  "fields": {
+    "code": "EUR",
+    "name": "Euro"
+  }
+},
+{
+  "model": "exchange_trades.currency",
+  "pk": 2,
+  "fields": {
+    "code": "USD",
+    "name": "Dollar"
+  }
+},
+{
+  "model": "exchange_trades.currency",
+  "pk": 3,
+  "fields": {
+    "code": "GBP",
+    "name": "Libra"
+  }
+}
+]
